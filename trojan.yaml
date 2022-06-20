@@ -1,0 +1,15 @@
+proxies:
+- name: master1
+  server: sg1-trojan.bonds.id
+  port: 443
+  password: 63db1380-f07f-11ec-a36f-1239d0255272
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
+- name: master2
+  server: sg2-trojan.bonds.id
+  port: 443
+  password: ca879390-f07f-11ec-99e0-1239d0255272
+  udp: true
+  sni: spotify.com
+  skip-cert-verify: true
